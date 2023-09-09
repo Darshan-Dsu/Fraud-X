@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  margin: 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.cards-list-wrapper {
+  padding: 0 30px 30px 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 0px 0px 10px 2px #d8d8d8;
+}
+
+.card-cell {
+  display: flex;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.card-cell-key {
+  min-width: 200px;
+  word-wrap: break-word;
+  height: auto;
+}
+
+.highlight {
+  color: #22b651;
+}
+
+.fraud {
+  color: red;
+}
